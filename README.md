@@ -18,5 +18,8 @@ Android does not provide a universal, reliable API to inspect and blur pixels in
 4. Run on Android 8.0+.
 5. In the app, enable Accessibility Service and overlay permission, then switch Protection ON.
 
+### AndroidIDE
+This project is configured for AndroidIDE's Gradle 7.4.2 runtime: Android Gradle Plugin 7.4.2, Kotlin 1.8.20, and compile/target SDK 34.
+
 ## Privacy and consent
 This tool is for the device owner. Keep the service visible, show a persistent notification, and do not remove Android's permission/consent screens in production.
