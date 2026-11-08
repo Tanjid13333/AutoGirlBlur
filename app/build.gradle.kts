@@ -1,7 +1,7 @@
 plugins { id("com.android.application"); id("org.jetbrains.kotlin.android") }
 
-android { namespace = "com.autogirlblur"; compileSdk = 34
-    defaultConfig { applicationId = "com.autogirlblur"; minSdk = 26; targetSdk = 34; versionCode = 1; versionName = "0.1.1" }
+android { namespace = "com.autogirlblur"; compileSdk = 33
+    defaultConfig { applicationId = "com.autogirlblur"; minSdk = 26; targetSdk = 33; versionCode = 1; versionName = "0.1.2" }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_11; targetCompatibility = JavaVersion.VERSION_11 }
     kotlinOptions { jvmTarget = "11" }
 }
